@@ -1,0 +1,131 @@
+.moment.new {
+  padding: 16px;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: white;
+  outline: none;
+  color: black;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+textarea::placeholder {
+  color: #212121;
+  font-family: poppins, sans-serif;
+}
+
+.moment-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.moment-footer div {
+  display: flex;
+  align-items: center;
+}
+.moment-footer small {
+  /* border: 1px solid #212121; */
+  padding: 4px;
+  border-radius: 8px;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  color: #212121;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: transparent;
+  padding: 6px 12px;
+}
+.color-picker {
+  border: none;
+  -webkit-appearance: none;
+  width: 36px;
+  height: 36px;
+  /* border-radius: 50%; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  /* margin: 0px; */
+  /* padding: 0px; */
+  /* border-radius: 6px; */
+  background-color: white;
+  padding: 1px 3px 1px 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  /* padding: 0; */
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.format-bold {
+  font-size: 30px;
+  /* border: 1px solid black; */
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.save {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  height: 36px;
+  padding: 0px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  /* padding: 5px 10px 5px 10px; */
+}
+
+.save:hover {
+  cursor: pointer;
+}
+
+.moment-color-tool,
+.text-color-tool {
+  position: relative;
+}
+
+.tool {
+  margin-right: 6px;
+}
+
+.tooltip {
+  display: inline-block;
+  background-color: #2f3640;
+  padding: 3px 6px;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+  position: absolute;
+  left: -50%;
+  top: -30px;
+  /* left: -100%; */
+
+  width: max-content;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tooltip.text-color-tooltip {
+  display: inline-block;
+}
+.tooltip.moment-color-tooltip {
+  display: inline-block;
+}
+
+.tooltip.close {
+  /* color: white; */
+  visibility: hidden;
+}

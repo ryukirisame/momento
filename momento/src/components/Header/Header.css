@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 600px;
+  background-color: white;
+  padding: 8px 36px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 0px;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  color: #212121;
+}
+.search-container {
+  /* width: 100%; */
+  /* background-color: black; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dark-mode-header {
+  background-color: #424242;
+  transition: background-color 0.2s ease-out;
+}
+.dark-mode-activated.dark-mode-icon {
+  background-color: #f1f2f6;
+}
+.dark-mode-icon {
+  cursor: pointer;
+  background-color: transparent;
+  /* border: 1px solid black; */
+  border: none;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark-mode-icon:hover {
+  background-color: #f1f2f6;
+}

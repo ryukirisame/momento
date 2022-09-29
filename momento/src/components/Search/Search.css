@@ -1,0 +1,28 @@
+
+
+
+.search {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+  
+    padding: 4px 8px;
+    border-radius: 6px;
+    background-color: #f1f2f6;
+    align-self: center;
+    justify-self: center;
+    /* border-radius: 10px; */
+    /* padding: 5px; */
+    /* margin-bottom: 16px; */
+  }
+  
+  .search input {
+    margin-left: 4px;
+    /* border: 1px solid black; */
+    width: 225px;
+    border: none;
+    background-color: transparent;
+    font-family: poppins, sans-serif;
+    outline: none;
+  }

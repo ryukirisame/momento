@@ -1,0 +1,119 @@
+.moment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 16px;
+  border-radius: 10px 10px 0px 0px;
+
+  /* border-radius: 8px; */
+}
+
+.moment-header .moment-date {
+  /* border: 1px solid #212121; */
+  padding: 3px 6px;
+  border-radius: 8px;
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #2f3640;
+  /* border: 1px solid #212121; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  /* background-color: #dfe6e9; */
+
+  /* padding: 6px 12px; */
+}
+
+.moment .moment-text-container {
+  /* position: relative; */
+  /* margin-top: 4px; */
+  border-radius: 10px;
+  padding: 9px 22px;
+}
+.moment .moment-text {
+  margin-top: 4px;
+  word-break: break-all;
+  /* padding: 6px 16px; */
+  padding: 0px;
+  height: 100%;
+  display: inline-block;
+}
+
+.moment {
+  z-index: 2;
+  background-color: #f5f6fa;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+
+  /* padding: 16px; */
+  /* min-height: 120px; */
+  height: max-content;
+  display: flex;
+  white-space: pre-wrap;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-bottom: 24px;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+
+.menu-icon {
+  padding: 5px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.menu-icon:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.delete-icon,
+.edit-icon {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  box-sizing: content-box;
+  /* padding: 2px; */
+  /* border-radius: 50%; */
+  /* background-color: transparent; */
+  margin-right: 4px;
+}
+/* .delete-icon:hover,
+.edit-icon:hover {
+  background-color: white;
+  cursor: pointer;
+} */
+
+.moment-menu-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.moment-menu {
+  position: absolute;
+  /* left: -100%; */
+  transform: translate(-105%, 0);
+  /* background-color: black; */
+  /* border: 1px solid black; */
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.moment-menu .moment-menu-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  border-radius: 2px;
+}
+.moment-menu .moment-menu-option:hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
+
+.moment-menu.close {
+  visibility: hidden;
+}
