@@ -1,2 +1,2 @@
 # momento
-# A simple journaling app using react
+A simple journaling app using react
